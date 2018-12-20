@@ -6,7 +6,7 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
+			<!-- <nav>
 	    		<ul>
 	        		<li><a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a></li>
 		        	<li><a href="/about" {% if page.url == "/about" %}style="color: red;"{% endif %}>About</a></li>
@@ -18,8 +18,8 @@
 				<li><a href="/blog">Contact</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
-			
+			<div class="container"> -->
+			{% include navigation.html %}
 			{{ content }}
 			
 			</div><!-- /.container -->
