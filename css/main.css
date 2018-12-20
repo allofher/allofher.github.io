@@ -57,7 +57,7 @@ ul.posts li {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #FFFFFF; /* Black */
+  background-color: #FFFFFF; /* White */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -94,6 +94,7 @@ ul.posts li {
   padding: 22px;
   font-size: 3em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  color: #003333;
   width: 100%;
   text-align: left;
   border: none;
@@ -102,7 +103,7 @@ ul.posts li {
 }
 
 .active {
-  background-color: #ccc;
+  background-color: #336633;
 }
 
 /* Style the accordion panel. Note: hidden by default */
