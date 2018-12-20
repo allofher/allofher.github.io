@@ -104,6 +104,7 @@ ul.posts li {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
+    font-size: 1.5em;
   padding: 0 18px;
   background-color: white;
   display: none;
