@@ -88,10 +88,11 @@ ul.posts li {
 /* CSS CONTENT FOR ACCORDIAN (Philosophy Page)
 /* ================================================================================================= */
 .accordion {
-  background-color: #eee;
+  background-color: #FFFFFF;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 22px;
+  font-size: 25px;
   width: 100%;
   text-align: left;
   border: none;
