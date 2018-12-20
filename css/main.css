@@ -102,10 +102,6 @@ ul.posts li {
   transition: 0.4s;
 }
 
-.active {
-  background-color: #336633;
-}
-
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
