@@ -92,7 +92,8 @@ ul.posts li {
   color: #444;
   cursor: pointer;
   padding: 22px;
-  font-size: 25px;
+  font-size: 3em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   width: 100%;
   text-align: left;
   border: none;
