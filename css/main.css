@@ -15,12 +15,13 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li{
     display: inline;
     margin-right: 20px;
 }
 
 a {
+    color: #003333;
     text-decoration: none;
 }
 
@@ -36,21 +37,13 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    margin-right: 20px;
+    text-align: right;
+    border-top: 2px solid black;
     font-size: .8em;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
 
 /* ================================================================================================= */
@@ -58,14 +51,12 @@ ul.posts li {
 /* ================================================================================================= */
 
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  width: 160px;
+  position: fixed;
+  top: 0;
   left: 0;
-  background-color: #D3D0CB; /* White */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #D3D0CB;
+  overflow-x: hidden;
   padding-top: 10px;
 }
 
@@ -74,7 +65,7 @@ ul.posts li {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #003333;
+  color: #292E1E;
   display: block;
 }
 
@@ -96,12 +87,11 @@ ul.posts li {
 /* ================================================================================================= */
 .accordion {
   background-color: #D3D0CB;
-  color: #444;
   cursor: pointer;
   padding: 22px;
   font-size: 3em;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  color: #003333;
+  color: #1B2021;
   width: 100%;
   text-align: left;
   border: none;
@@ -111,9 +101,13 @@ ul.posts li {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    font-size: 1.5em;
+  font-size: 1.5em;
   padding: 0 18px;
   background-color: #D3D0CB;
   display: none;
   overflow: hidden;
+}
+
+.panel ul{
+  list-style: none;
 }
