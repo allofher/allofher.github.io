@@ -116,32 +116,6 @@ nav ul {
 }
 
 /* ========================================================================= */
-/* Philosophy accordian
-/* ========================================================================= */
-.accordion {
-  background-color: #D3D0CB;
-  cursor: pointer;
-  padding: 22px;
-  font-size: 1.5em;
-  font-family:'Georgia', sans-serif;
-  font-weight: bold;
-  color: #1B2021;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.panel {
-  font-family: 'Helvetica', serif;
-  padding: 0 18px;
-  background-color: #D3D0CB;
-  display: none;
-  overflow: hidden;
-}
-
-/* ========================================================================= */
 /* Music Tab Blocks
 /* ========================================================================= */
 .songTitles {
