@@ -59,6 +59,11 @@ p {
   height:5px;
 }
 
+.blurb {
+    max-width : 700px;
+    word-wrap: break-word;
+}
+
 /* ========================================================================= */
 /* footer */
 /* ========================================================================= */
@@ -118,6 +123,7 @@ nav ul {
 /* ========================================================================= */
 /* Music Tab Blocks
 /* ========================================================================= */
+/*
 .songTitles {
   float: left;
 }
@@ -143,14 +149,14 @@ nav ul {
   height: 18px;
 }
 
-/*.songProgress ul li {
+<!--.songProgress ul li {
   display: inline;
   border: 1px solid black;
   margin-left: -1px;
-}*/
+}-->
 
 .songContainer {
   position: relative;
   overflow: auto;
   width: 90%;
-}
+}*/
