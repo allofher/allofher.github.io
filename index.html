@@ -26,44 +26,15 @@
   					border-radius: 35%;
 						border: 3px solid #221912;
 				}
-			/* ================================================================================================= */
-			/* Buttons */
-			/* ================================================================================================= */
-				.btn {
- 					border: 2px solid #1B2021;
-					background-color: #D3D0CB;
-  				color: #1B2021;
-  				border-radius: 5px;
-  				padding: 14px 28px;
-					font-family: Helvetica;
-  				font-size: 16px;
-  				cursor: pointer;
-				}
-
-				.mybtn {
-    			border-color: #FFFFFF;
-    			color: white;
-				}
-
-				a.button {
-					border: 2px solid #1B2021;
-					background-color: #D3D0CB;
-  				color: #1B2021;
-  				border-radius: 13px;
-  				padding: 14px 28px;
-					font-family: Helvetica;
-  				font-size: 18px;
-    			text-decoration: none;
-				}
-			/* ================================================================================================= */
+/* ============================================================================================== */
 			/* Centering */
-			/* ================================================================================================= */
+/* ============================================================================================== */
 				container {
 					position: relative;
 					width: 100%;
 				}
-
-				section {
+        
+				sectiona {
 					width: 400px;
 					margin: 60px auto;
 					background: #D3D0CB;
@@ -72,18 +43,84 @@
 					word-wrap: break-word;
 					text-align: center;
 				}
+        
+        section {
+          width: 400px;
+          margin: 60px auto;
+          background: #D3D0CB;
+          color: black;
+          
+          word-wrap: break-word;
+          text-align: left;
+        }
+        
 			</style>
 		</head>
 
-		<container>
-			<section>
+    <div class="sidenav">
+        <a href="/files/Oxton Resume.pdf">Résumé</a>
+        <a href="#top">Home</a>
+        <a href="#phil">Philosophy</a>
+        <a href="#code">Coding</a>
+        <a href="#music">Music</a>
+        <a href="#fashion">Fashion</a>
+        <a href="#dnd">Dungeons</a>
+    </div>
+    
+    <div id="phil" class="page">
+      <container>
+      <section>
+        <h1>
+        Here's some things I've written!
+        </h1>
+        <ul>
+    <li> A thesis! <a href="https://uwspace.uwaterloo.ca/handle/10012/13969">Check it out.</a></li>
+    <li> <a href="https://arxiv.org/abs/1904.09023">Co-authored paper</a> on semiotic models and machine learning architecture. Presented at <a href="http://rldm.org/">RLDM 2019.</a></li>
+  </ul>
+        <h1>
+        Here's some things I've recently read and been interested in...
+        </h1>
+        <ul>
+        <li><a href="https://global.oup.com/academic/product/city-state-9780190922771?cc=ca&lang=en&">City, State; Constitutionalism and the MegaCity</a> by Ran Hirschl</li>
+    <li><a href="https://www.hup.harvard.edu/catalog.php?isbn=9780674971448">Law's Abengation</a> by Adrian Vermeule.</li>
+    <li><a href="https://www.amazon.ca/Biomedia-Eugene-Thacker/dp/0816643539">BioMedia</a> by Eugene Thacker.</li>
+    <li><a href="https://mitpress.mit.edu/books/fanged-noumena">Fanged Noumena</a> by Nick Land.</li>
+    <li><a href="https://uwspace.uwaterloo.ca/handle/10012/11106">The Depiction of Unwritten Law</a> by Benjamin Nelson.</li>
+    <li><a href="https://www.harpercollins.com/products/the-present-age-soren-kierkegaard">The Present Age</a> by Soren Keirkegaard.</li>
+  </ul>
+      </section>
+      </container>
+    </div>
+    
+    <div id="code" class="page">
+    <container>
+      <section>
+      <p>
+      Check back soon and hopefully I'll have more details :)
+      </p>
+      <p>
+      Right now I'm working on a project using python-chess to build an AI model evaluating pieces in an abnormal way. Hopefully, we can train a 'better-than-me' version which can then be trained against opening positions. The result should produce engine exploited opening theory which won't necessarily match the standard accepted opening theory. Then I plan to take my terrible new strategies to the online chess world and share data about how well I do.
+      </p>
+      </section>
+    </container>
+    </div>
+    
+    <div id="music" class="page">
+      <container>
+        <section>
+          words
+        </section>
+      </container>
+    </div>
+    
+    <div id="top" class="page default">
+      <container>
+			 <sectiona>
 				<img src="/files/me.jpg.jpg" alt="Me" width="300" height="400">
 				<h1>Hey, I'm Oliver.</h1>
-				<p>Aspiring consultant, analyst, strategist, and so much more. Currently seeking career development and an environment to apply my problem solving and communication skills in.</p>
-					<div class="gap-20"></div>
-				<a href="/files/Oxton Resume.pdf" class="button">Résumé</a>
-				<a href="mailto:opo.xton@gmail.com" class="button">Contact</a>
-				<a href="/about/" class="button">More</a>
-			</section>
+				<p>Aspiring consultant, analyst, strategist, and so much more. Currently seeking career development and an environment to apply my problem solving skills in.</p>
+			</sectiona>
 		</container>
+    </div>
+    
 	</html>
